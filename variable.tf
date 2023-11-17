@@ -9,3 +9,9 @@ variable "lb_backend_address_pool_output" {
   default = {}
   description = "object map of lb backend pool output"
 }
+
+variable"virtual_network_output" {
+  type = map(any)
+  default = {}
+  description = "object map of virtual network"
+}
