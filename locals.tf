@@ -1,3 +1,3 @@
 locals {
-   lb_backend_address = {for lb_backend_adddress in var.lb_backend_pool_address_list : lb_backend_adddress.name => lb_backend_address}
+   lb_backend_address = {for lb_backend_address in var.lb_backend_address_pool_addresses_list : lb_backend_address.name => lb_backend_address}
 }
